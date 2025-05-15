@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+body {
+  background-image: url(../assets/background3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.onboarding-screen-1 {
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "DM Sans", sans-serif;
+}
+.onboarding-screen-1-header {
+  position: fixed;
+  top: 20vh;
+  left: 10vw;
+}
+.onboarding-screen-1-heading {
+  font-size: 47px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.onboarding-screen-1-subheading {
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-align: left;
+  font-style: italic;
+}
+.onboarding-screen-1-signin {
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(145, 145, 145, 0.215);
+  border-radius: 30px;
+  padding: 10px;
+  align-items: center;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 220px;
+  justify-content: space-around;
+}
+
+.onboarding-screen-1-signin img {
+  height: 20px;
+}
+
+.onboarding-screen-1-signin p {
+  margin: 0px;
+  margin-left: 10px;
+  font-weight: 300;
+}
+
+.onboarding-screen-1-footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw;
+  color: rgb(114, 114, 114);
+  font-size: 12px;
+}
+
+.onboarding-screen-2 {
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "DM Sans", sans-serif;
+}
+.onboarding-screen-2-header {
+  position: fixed;
+  top: 20vh;
+  left: 10vw;
+}
+.onboarding-screen-2-heading {
+  font-size: 47px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+  width: 80vw;
+}
+.onboarding-screen-2-subheading {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-align: left;
+  font-style: italic;
+  color: #9c9c9c;
+}
+.onboarding-screen-2-input-section {
+  position: fixed;
+  top: 43vh;
+  left: 10vw;
+  flex-direction: column;
+  display: flex;
+}
+.onboarding-screen-2-input-section p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: rgb(145, 145, 145);
+}
+.onboarding-screen-2-input-section input {
+  width: 72vw;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 0px;
+  background-color: rgba(145, 145, 145, 0.215);
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.onboarding-screen-2-input-section input:focus {
+  outline: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.onboarding-screen-2-input-section input::placeholder {
+  color: rgb(145, 145, 145);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  outline: none;
+}
+.onboarding-screen-2-input-section input:focus::placeholder {
+  color: rgb(145, 145, 145);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.onboarding-screen-2-footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80vw;
+  color: rgb(114, 114, 114);
+  font-size: 12px;
+}
