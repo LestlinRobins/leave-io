@@ -111,6 +111,8 @@ body {
   padding: 15px;
   border-radius: 10px;
   border: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
   margin-bottom: 0px;
   background-color: rgba(145, 145, 145, 0.215);
   backdrop-filter: blur(20px);
@@ -135,7 +137,16 @@ body {
   font-weight: 300;
   font-size: 15px;
 }
-
+.onboarding-screen-2-next-button {
+  width: 40vw;
+  margin-top: 2rem;
+  align-self: center;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: rgba(145, 145, 145, 0.215);
+  border-radius: 30px;
+}
 .onboarding-screen-2-footer {
   position: fixed;
   bottom: 10px;
